@@ -1,0 +1,54 @@
+body {
+    font-family: fantasy; 
+    font-size: 16pt;
+        }
+        a:link{
+            color:red;
+            font-weight:bolder;
+        }
+        a:visited{
+            color:teal;
+            font-weight:lighter; 
+        }
+        a:hover{
+            color:purple;
+            text-decoration:royalblue;
+            background-color:saddlebrown;
+        }
+        a:active{
+            color:teal;
+            text-decoration: silver;
+        }
+        h1{
+            position:relative;
+            font-size:200%;
+            color: turquoise;
+            text-shadow: black;
+            animation:mymove 10s;
+            animation-fill-mode:forwards;
+        }
+            @keyframes mymove {
+            from {left: -30%;}
+            to {left: 20%;}
+        }
+        h2{
+         color:red;
+            font-size:150% ;
+            text-shadow: black;
+            width: initial;
+            background-color: lightcyan;
+            padding: auto;
+        }
+        h3{
+            color:red;
+            font-size:150% ;
+            text-shadow: black;
+            width: initial;
+            background-color: lightcyan;
+            padding: auto;
+        }
+        nav{
+            margin:auto;
+            text-align: center;
+        }
+        
